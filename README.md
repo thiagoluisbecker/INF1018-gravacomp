@@ -1,18 +1,9 @@
 # INF1018-gravacomp
-INF1018 - Software Básico (2022.1)
+INF1018 - Software Básico 
 Primeiro Trabalho
 Armazenamento compactado
 O objetivo do trabalho é implementar, na linguagem C, uma função (gravacomp) que armazena um array de structs em um arquivo binário de forma compactada e uma função (mostracomp) que permite visualizar um arquivo gerado por gravacomp na saída padrão (terminal).
 
-Instruções Gerais
-
-Leia com atenção o enunciado do trabalho e as instruções para a entrega. Em caso de dúvidas, não invente. Pergunte!
-O trabalho deve ser entregue até meia-noite (23:59) do dia 09 de maio.
-Trabalhos entregues com atraso perderão um ponto por dia de atraso.
-Trabalhos que não compilem (isto é, que não produzam um executável) não serão considerados! Ou seja, receberão grau zero.
-Os trabalhos devem preferencialmente ser feitos em grupos de (no máximo) dois alunos .
-Os grupos deverão estar preparados para apresentações orais / demonstrações dos trabalhos entregues.
-Função gravacomp
 int gravacomp (int nstructs, void* valores, char* descritor, FILE* arquivo); 
 A função gravacomp recebe:
 nstructs: o número de elementos do array de structs a ser armazenado em arquivo
